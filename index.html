@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="./assets/img/logo-dark1.png" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Techwind - Tailwind CSS</title>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./assets/img/logo-dark.png" alt="">
+                <ul class="menu">
+                    <li><a href="#" class="menu__item" style="color: #4f46e5;">HOME</a></li>
+                    <li>
+                        <a href="#" class="menu__item">LANDING
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </a>
+                        <div class="subnav_together subnav_landing">
+                            <ul class="col">
+                                <li class="subnav__item">SAAS
+                                    <a href="#" class="hot">ANIMATION</a>
+                                </li>
+                                <li class="subnav__item">CLASSIC SAAS</li>
+                                <li class="subnav__item">MODERN SAAS</li>
+                                <li class="subnav__item">APPLICATION</li>
+                                <li class="subnav__item">CLASSIC APP</li>
+                                <li class="subnav__item">SMARTWATCH</li>
+                                <li class="subnav__item">MARKETING</li>
+                                <li class="subnav__item">SEO AGENCY</li>
+                                <li class="subnav__item">PAYMENTS
+                                    <a href="#" class="hot" style="background-color: #ea580c;">NEW</a>
+                                </li>
+                            </ul>
+
+                            <ul class="col">
+                                <li class="subnav__item">IT SOLUTION</li>
+                                <li class="subnav__item">IT SOLUTION TWO</li>
+                                <li class="subnav__item">DIGITAL AGENCY</li>
+                                <li class="subnav__item">JOB</li>
+                                <li class="subnav__item">RESTAURANT</li>
+                                <li class="subnav__item">HOSTING</li>
+                                <li class="subnav__item">GYM
+                                    <a href="#" class="hot" style="background-color: #161c2d;">DARK</a>
+                                </li>
+                                <li class="subnav__item">NFT MAKERPLACE</li>
+                                <li class="subnav__item">HOTEL & RESORT
+                                    <a href="#" class="hot" style="background-color: #ea580c;">NEW</a>
+                                </li>
+                            </ul>
+
+                            <ul class="col">
+                                <li class="subnav__item">START</li>
+                                <li class="subnav__item">BUSINESS</li>
+                                <li class="subnav__item">CORPORATE</li>
+                                <li class="subnav__item">CORPORATE TWO</li>
+                                <li class="subnav__item">REAL ESTATE</li>
+                                <li class="subnav__item">CONSULTING</li>
+                                <li class="subnav__item">INSURANCE</li>
+                                <li class="subnav__item">CONTRUCTION</li>
+                            </ul>
+
+                            <ul class="col">
+                                <li class="subnav__item">PERSONAL</li>
+                                <li class="subnav__item">PORTFOLIO</li>
+                                <li class="subnav__item">PHOTOGRAPHY
+                                    <a href="#" class="hot" style="background-color: #161c2d;">DARK</a>
+                                </li>
+                                <li class="subnav__item">STUDIO</li>
+                                <li class="subnav__item">CO-WORKING</li>
+                                <li class="subnav__item">ONLIEN COURSES</li>
+                                <li class="subnav__item">HOPITAL</li>
+                                <li class="subnav__item">EVENT/CONFERENCE</li>
+                            </ul>
+
+                            <ul class="col">
+                                <li class="subnav__item">CRYTOCURRENCY
+                                    <a href="#" class="hot" style="background-color: #161c2d;">DARK</a>
+                                </li>
+                                <li class="subnav__item">LANDING ONE</li>
+                                <li class="subnav__item">LANDING TWO</li>
+                                <li class="subnav__item">LANDING THREE</li>
+                                <li class="subnav__item">LANDING FOUR</li>
+                                <li class="subnav__item">SERVICE PROVIDER</li>
+                                <li class="subnav__item">FOOD BLOG</li>
+                                <li class="subnav__item">BLOG</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" class="menu__item">PAGES
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </a>
+                        <ul class="subnav_together">
+                            <li class="subnav__item">COMPANY
+                                <i class="pages_icons fa-solid fa-chevron-right"></i>
+                                <ul class="subnav_pages">
+                                    <li class="subnav__item">ABOUT US</li>
+                                    <li class="subnav__item">SERVICES</li>
+                                    <li class="subnav__item">TEAM</li>
+                                    <li class="subnav__item">PRICING</li>
+                                    <li class="subnav__item">TESTIMONIAL</li>
+                                </ul>
+                            </li>
+                            <li class="subnav__item">ACCOUNTS
+                                <i class="pages_icons fa-solid fa-chevron-right"></i>
+                                <ul class="subnav_pages">
+                                    <li class="subnav__item">USER PROFILE</li>
+                                    <li class="subnav__item">BILLING</li>
+                                    <li class="subnav__item">PAYMENT</li>
+                                    <li class="subnav__item">INVOICE</li>
+                                    <li class="subnav__item">SOCIAL</li>
+                                    <li class="subnav__item">NOTIFICATION</li>
+                                    <li class="subnav__item">SETTING</li>
+                                </ul>
+                            </li>
+                            <li class="subnav__item">REAL ESTATE
+                                <i class="pages_icons fa-solid fa-chevron-right"></i>
+                                <ul class="subnav_pages">
+                                    <li class="subnav__item">LISTING</li>
+                                    <li class="subnav__item">BILLING DETAIL</li>
+                                </ul>
+                            </li>
+                            <li class="subnav__item">COURSES
+                                <i class="pages_icons fa-solid fa-chevron-right"></i>
+                                <ul class="subnav_pages">
+                                    <li class="subnav__item">COURSES LISTING</li>
+                                    <li class="subnav__item">COURSES DETAIL</li>
+                                </ul>
+                            </li>
+                            <li class="subnav__item">NFT MARKET
+                                <i class="pages_icons fa-solid fa-chevron-right"></i>
+                                <ul class="subnav_pages">
+                                    <li class="subnav__item">EXPLORE</li>
+                                    <li class="subnav__item">AUCTION</li>
+                                    <li class="subnav__item">COLLECTIONS</li>
+                                    <li class="subnav__item">CREATORS</li>
+                                    <li class="subnav__item">WALLET</li>
+                                    <li class="subnav__item">CREATE NFT</li>
+                                    <li class="subnav__item">SINGLE NFT</li>
+                                </ul>
+                            </li>
+                            <li class="subnav__item">FOOD RECIPE</li>
+                            <li class="subnav__item">PHOTOGRAPHY
+                                <i class="pages_icons fa-solid fa-chevron-right"></i>
+                                <ul class="subnav_pages">
+                                    <li class="subnav__item">ABOUT US</li>
+                                    <li class="subnav__item">PORTFOLIO</li>
+                                </ul>
+                            </li>
+                            <li class="subnav__item">JOB / CAREERS
+                                <i class="pages_icons fa-solid fa-chevron-right"></i>
+                                <ul class="subnav_pages">
+                                    <li class="subnav__item">ALL JOBS</li>
+                                    <li class="subnav__item">JOB DETAIL</li>
+                                    <li class="subnav__item">JOB APPLY</li>
+                                    <li class="subnav__item">JOB CANDIDATES</li>
+                                    <li class="subnav__item">CANDIDATES DETAIL</li>
+                                    <li class="subnav__item">CANDIDATES DETAIL</li>
+                                    <li class="subnav__item">CANDIDATES DETAIL</li>
+                                </ul>
+                            </li>
+                            <li class="subnav__item">HELP CENTER
+                                <i class="pages_icons fa-solid fa-chevron-right"></i>
+                                <ul class="subnav_pages">
+                                    <li class="subnav__item">OVER VIEW</li>
+                                    <li class="subnav__item">FAQS</li>
+                                    <li class="subnav__item">GUIDES</li>
+                                    <li class="subnav__item">SUPPORT</li>
+                                </ul>
+                            </li>
+                            <li class="subnav__item">BLOG
+                                <i class="pages_icons fa-solid fa-chevron-right"></i>
+                                <ul class="subnav_pages">
+                                    <li class="subnav__item">BLOG</li>
+                                    <li class="subnav__item">BLOG & SIDEBAR</li>
+                                    <li class="subnav__item">BLOG DETAILS</li>
+                                    <li class="subnav__item">BLOG POSTS
+                                        <i class="pages_icons fa-solid fa-chevron-right"></i>
+                                        <ul class="subnav_blog">
+                                            <li class="subnav__item">STANDARD POST</li>
+                                            <li class="subnav__item">SLIDER POST</li>
+                                            <li class="subnav__item">GALLEY POST</li>
+                                            <li class="subnav__item">YOUTUBE POST</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="subnav__item">EMAIL TEMPLATE
+                                <i class="pages_icons fa-solid fa-chevron-right"></i>
+                                <ul class="subnav_pages">
+                                    <li class="subnav__item">CONFIMATION</li>
+                                    <li class="subnav__item">RESET PASSWORD</li>
+                                    <li class="subnav__item">ALERT</li>
+                                    <li class="subnav__item">INVOICE</li>
+                                </ul>
+                            </li>
+                            <li class="subnav__item">AUTH PAGES
+                                <i class="pages_icons fa-solid fa-chevron-right"></i>
+                                <ul class="subnav_pages">
+                                    <li class="subnav__item">LOG IN</li>
+                                    <li class="subnav__item">SIGNUP</li>
+                                    <li class="subnav__item">RESET PASSWORD</li>
+                                    <li class="subnav__item">LOCK SCREEN</li>
+                                </ul>
+                            </li>
+                            <li class="subnav__item">ULTILITY
+                                <i class="pages_icons fa-solid fa-chevron-right"></i>
+                                <ul class="subnav_pages">
+                                    <li class="subnav__item">ABOUT US</li>
+                                    <li class="subnav__item">SERVICES</li>
+                                    <li class="subnav__item">TEAM</li>
+                                    <li class="subnav__item">PRICING</li>
+                                    <li class="subnav__item">TESTIMONIAL</li>
+                                </ul>
+                            </li>
+                            <li class="subnav__item">SPECIAL
+                                <i class="pages_icons fa-solid fa-chevron-right"></i>
+                                <ul class="subnav_pages">
+                                    <li class="subnav__item">COMING SOON</li>
+                                    <li class="subnav__item">MAINTENANCE</li>
+                                    <li class="subnav__item">ERROR</li>
+                                    <li class="subnav__item">THANK YOU</li>
+                                </ul>
+                            </li>
+                            <li class="subnav__item">CONTACT
+                                <i class="pages_icons fa-solid fa-chevron-right"></i>
+                                <ul class="subnav_pages">
+                                    <li class="subnav__item">CONTACT DETAIL</li>
+                                    <li class="subnav__item">CONTACT ONE</li>
+                                    <li class="subnav__item">CONTACT TWO</li>
+                                    <li class="subnav__item">CONTACT THREE</li>
+                                </ul>
+                            </li>
+                            <li class="subnav__item">MULTI LEVEL MENU
+                                <i class="pages_icons fa-solid fa-chevron-right"></i>
+                                <ul class="subnav_pages">
+                                    <li class="subnav__item">LEVEL 1.0</li>
+                                    <li class="subnav__item">LEVEL 2.0</li>
+                                    <li class="subnav__item">LEVEL 3.0</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="menu__item">PORTFOLIO
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </a>
+                        <div class="subnav_together subnav_portfolio">
+                            <ul class="col">
+                                <li class="subnav__item">MODERN PORTFOLIO</li>
+                                <li class="subnav__item">TWO COLUMN</li>
+                                <li class="subnav__item">THREE COLUMN</li>
+                                <li class="subnav__item">FOUR COLUMN</li>
+                                <li class="subnav__item">FIVE COLUMN</li>
+                                <li class="subnav__item">SIX COLUMN</li>
+                            </ul>
+
+                            <ul class="col">
+                                <li class="subnav__item">CLASSIC PORTFOLIO</li>
+                                <li class="subnav__item">TWO COLUMN</li>
+                                <li class="subnav__item">THREE COLUMN</li>
+                                <li class="subnav__item">FOUR COLUMN</li>
+                                <li class="subnav__item">FIVE COLUMN</li>
+                                <li class="subnav__item">SIX COLUMN</li>
+                            </ul>
+
+                            <ul class="col">
+                                <li class="subnav__item">CREATIVE PORTFOLIO</li>
+                                <li class="subnav__item">TWO COLUMN</li>
+                                <li class="subnav__item">THREE COLUMN</li>
+                                <li class="subnav__item">FOUR COLUMN</li>
+                                <li class="subnav__item">FIVE COLUMN</li>
+                                <li class="subnav__item">SIX COLUMN</li>
+                            </ul>
+
+                            <ul class="col">
+                                <li class="subnav__item">MASONRY PORTFOLIO</li>
+                                <li class="subnav__item">TWO COLUMN</li>
+                                <li class="subnav__item">THREE COLUMN</li>
+                                <li class="subnav__item">FOUR COLUMN</li>
+                                <li class="subnav__item">FIVE COLUMN</li>
+                                <li class="subnav__item">SIX COLUMN</li>
+                            </ul>
+
+                            <ul class="col">
+                                <li class="subnav__item">PORTFOLIO DETAIL</li>
+                                <li class="subnav__item">PORTFOLIO ONE</li>
+                                <li class="subnav__item">PORTFOLIO TWO</li>
+                                <li class="subnav__item">PORTFOLIO THREE</li>
+                                <li class="subnav__item">PORTFOLIO FOUR</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" class="menu__item">DOCS
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </a>
+                        <ul class="subnav_together">
+                            <li class="subnav__item">DOCUMENTATION</li>
+                            <li class="subnav__item">CHANGELOG</li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="menu__item">CONTACT</a></li>
+                </ul>
+                <div class="icons">
+                    <a href="#"><i class="fa fa-gear"></i></a>
+                    <a href="#"><i class="fa fa-cart-shopping"></i></a>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div id="banner">
+        <div class="container">
+            <div class="banner_wrapper">
+                <div class="banner__content">
+                    <h2 class="banner__content_title">
+                        Our Creativity Is Your
+                    </h2>
+                    <span>Success</span>
+                    <p>Launch your campaign and benefit from our expertise on designing and <br> managing conversion
+                        centered
+                        Tailwind CSS v3.x html page.</p>
+                    <a href="#" class="btn">
+                        <i class="fa-regular fa-envelope"></i>
+                        Get Started
+                    </a>
+                    <a href="#" class="btn btn2">
+                        <i class="fa-solid fa-book"></i>
+                        Documentation
+                    </a>
+                </div>
+                <div class="banner__img">
+                    <img src="./assets/img/Startup_SVG.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="brand">
+        <div class="container">
+            <div class="brand_wrapper">
+                <img src="./assets/img/amazon.svg" alt="">
+                <img src="./assets/img/google.svg" alt="">
+                <img src="./assets/img/lenovo.svg" alt="">
+                <img src="./assets/img/paypal.svg" alt="">
+                <img src="./assets/img/shopify.svg" alt="">
+                <img src="./assets/img/amazon.svg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div id="work">
+        <div class="container">
+            <div class="work_wrapper">
+                <div class="work__content">
+                    <h3>How It Work ?</h3>
+                    <p>Start working with Tailwind CSS that can provide everything you need to <br> generate awareness,
+                        drive traffic, connect.
+                    </p>
+                </div>
+                <div class="work__col">
+                    <div class="work__col--img">
+                        <img src="./assets/img/SEO_SVG.svg" alt="">
+                    </div>
+                    <div class="work__col--text">
+                        <h3>Change the way you build websites</h3>
+                        <p>You can combine all the Techwind templates into a single one, you can take a <br> component
+                            from the Application theme and use it in the Website.</p>
+                        <ul class="list_solution">
+                            <li>
+                                <i class="fa-regular fa-circle-check"></i>
+                                Digital Marketing Solutions for Tomorrow
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-circle-check"></i>
+                                Our Talented & Experienced Marketing Agency
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-circle-check"></i>
+                                Create your own skin to match your brand
+                            </li>
+                        </ul>
+                        <div class="btn_find">
+                            <a href="#">Find Out More</a>
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work__col">
+                    <div class="work__col--text">
+                        <h3>Speed up your development <br> with <span>Techwind.</span></h3>
+                        <p>You can combine all the Techwind templates into a single one, you can take a <br> component
+                            from the Application theme and use it in the Website.</p>
+                        <ul class="list_solution">
+                            <li>
+                                <i class="fa-regular fa-circle-check"></i>
+                                Digital Marketing Solutions for Tomorrow
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-circle-check"></i>
+                                Our Talented & Experienced Marketing Agency
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-circle-check"></i>
+                                Create your own skin to match your brand
+                            </li>
+                        </ul>
+                        <div class="btn_find">
+                            <a href="#">Find Out More</a>
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                    </div>
+                    <div class="work__form">
+                        <img src="./assets/img/Mobile_notification_SVG.svg" alt="">
+                        <form>
+                            <div class="work__form-group">
+                                <label>Your Name:
+                                    <span class="star">*</span>
+                                </label>
+                                <div class="form-icon">
+                                    <i class="fa-regular fa-user"></i>
+                                    <input type="text" class="form-control" required placeholder="Name">
+                                </div>
+                            </div>
+                            <div class="work__form-group">
+                                <label>Your Email:
+                                    <span class="star">*</span>
+                                </label>
+                                <div class="form-icon">
+                                    <i class="fa-regular fa-envelope"></i>
+                                    <input type="text" class="form-control" required placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="work__form-group">
+                                <label>Enter Password:
+                                    <span class="star">*</span>
+                                </label>
+                                <div class="form-icon">
+                                    <i class="fa-solid fa-key"></i>
+                                    <input type="password" class="form-control" required placeholder="Password">
+                                </div>
+                            </div>
+                            <button type="submit" class="btn_submit">Download</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="slider">
+        <div class="container">
+            <div class="work__content slider__title">
+                <span>We believe in building each other and hence</span>
+                <h3>Work with some amazing partners</h3>
+                <p>Start working with Tailwind CSS that can provide everything you need to <br> generate awareness,
+                    drive traffic, connect.
+                </p>
+            </div>
+            <div class="slider_wrapper">
+                <button id="btn-prev" onclick="prev()"><i class="fa-solid fa-chevron-left"></i></button>
+                <button id="btn-next" onclick="next()"><i class="fa-solid fa-chevron-right"></i></button>
+                <div class="slider__item slider_activie" id="slide1">
+                    <div class="slider__item--img">
+                        <img src="./assets/img/01.jpg" alt="">
+                    </div>
+                    <div class="slider__item--content">
+                        <p>" It seems that only fragments of the <br> original text remain in the Lorem Ipsum <br> texts used
+                            today. "
+                        </p>
+                        <div class="info">
+                            <p class="name">Thomas Isreal</p>
+                            <p class="address">Staff Engineer, Algolia</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider__item slider_activie" id="slide2">
+                    <div class="slider__item--img">
+                        <img src="./assets/img/02.jpg" alt="">
+                    </div>
+                    <div class="slider__item--content">
+                        <p>" The most well-known dummy text is the <br> 'Lorem Ipsum', which is said to have <br> originated in the 16th century. "
+                        </p>
+                        <div class="info">
+                            <p class="name">Carl Oliver</p>
+                            <p class="address">Staff Engineer, Algolia</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider__item" id="slide3">
+                    <div class="slider__item--img">
+                        <img src="./assets/img/03.jpg" alt="">
+                    </div>
+                    <div class="slider__item--content">
+                        <p>" It seems that only fragments of the original text remain in the Lorem Ipsum texts used
+                            today. "
+                        </p>
+                        <div class="info">
+                            <p class="name">Thomas Isreal</p>
+                            <span class="address">Staff Engineer, Algolia</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider__item" id="slide4">
+                    <div class="slider__item--img">
+                        <img src="./assets/img/04.jpg" alt="">
+                    </div>
+                    <div class="slider__item--content">
+                        <p>" It seems that only fragments of the original text remain in the Lorem Ipsum texts used
+                            today. "
+                        </p>
+                        <div class="info">
+                            <p class="name">Thomas Isreal</p>
+                            <span class="address">Staff Engineer, Algolia</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider__item" id="slide5">
+                    <div class="slider__item--img">
+                        <img src="./assets/img/05.jpg" alt="">
+                    </div>
+                    <div class="slider__item--content">
+                        <p>" It seems that only fragments of the original text remain in the Lorem Ipsum texts used
+                            today. "
+                        </p>
+                        <div class="info">
+                            <p class="name">Thomas Isreal</p>
+                            <span class="address">Staff Engineer, Algolia</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider__item" id="slide6">
+                    <div class="slider__item--img">
+                        <img src="./assets/img/06.jpg" alt="">
+                    </div>
+                    <div class="slider__item--content">
+                        <p>" It seems that only fragments of the original text remain in the Lorem Ipsum texts used
+                            today. "
+                        </p>
+                        <div class="info">
+                            <p class="name">Thomas Isreal</p>
+                            <span class="address">Staff Engineer, Algolia</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="register">
+        <div class="container">
+            <div class="banner_wrapper register__wrapper">
+                <div class="banner__content register__content">
+                    <h2 class="banner__content_title">
+                        Our Creativity Is Your
+                    </h2>
+                    <p>Start working with Tailwind CSS that can provide everything <br> you need to generate awareness, drive traffic, connect.</p>
+                    <a href="#" class="btn">
+                        <i class="fa-solid fa-link"></i>
+                        Subscribe Now
+                    </a>
+                </div>
+                <div class="register__card">
+                    <div class="register__card--big">
+                        <h6>STARTER</h6>
+                        <div class="info">
+                            <span class="dolar">$</span>
+                            <span class="price">39</span>
+                            <span class="mo">/mo</span>
+                        </div>
+                        <ul class="list_solution">
+                            <li>
+                                <i class="fa-regular fa-circle-check"></i>
+                                Full Access
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-circle-check"></i>
+                                Source Files
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-circle-check"></i>
+                                Free Appointments
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-circle-check"></i>
+                                Enhanced Security
+                            </li>
+                        </ul>
+                        <a href="#" class="btn btn-card">
+                            Get Started
+                        </a>
+                    </div>
+                    <div class="register__card--big small">
+                        <h6>PROFESSIONAL</h6>
+                        <div class="info">
+                            <span class="dolar">$</span>
+                            <span class="price">59</span>
+                            <span class="mo">/mo</span>
+                        </div>
+                        <ul class="list_solution">
+                            <li>
+                                <i class="fa-regular fa-circle-check"></i>
+                                Full Access
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-circle-check"></i>
+                                Source Files
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-circle-check"></i>
+                                Free Appointments
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-circle-check"></i>
+                                Enhanced Security
+                            </li>
+                        </ul>
+                        <a href="#" class="btn btn-card">
+                            Try it Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+
+    </div>
+</body>
+
+</html>
