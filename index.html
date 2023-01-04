@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="icon" href="./assets/img/logo-dark1.png" type="image/x-icon" />
+    <link rel="icon" href="./assets/img/logo-tabbar.png" type="image/x-icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <title>Techwind - Tailwind CSS</title>
 </head>
@@ -17,7 +18,7 @@
             <nav>
                 <img src="./assets/img/logo-dark.png" alt="">
                 <ul class="menu">
-                    <li><a href="#" class="menu__item" style="color: #4f46e5;">HOME</a></li>
+                    <li><a href="#" class="menu__item" style="--clr: #4f46e5;">HOME</a></li>
                     <li>
                         <a href="#" class="menu__item">LANDING
                             <i class="fa-solid fa-chevron-down"></i>
@@ -25,7 +26,7 @@
                         <div class="subnav_together subnav_landing">
                             <ul class="col">
                                 <li class="subnav__item">SAAS
-                                    <a href="#" class="hot">ANIMATION</a>
+                                    <a href="#" class="hot" style="--clr: #059669">ANIMATION</a>
                                 </li>
                                 <li class="subnav__item">CLASSIC SAAS</li>
                                 <li class="subnav__item">MODERN SAAS</li>
@@ -35,7 +36,7 @@
                                 <li class="subnav__item">MARKETING</li>
                                 <li class="subnav__item">SEO AGENCY</li>
                                 <li class="subnav__item">PAYMENTS
-                                    <a href="#" class="hot" style="background-color: #ea580c;">NEW</a>
+                                    <a href="#" class="hot" style="--clr: #ea580c;">NEW</a>
                                 </li>
                             </ul>
 
@@ -47,11 +48,11 @@
                                 <li class="subnav__item">RESTAURANT</li>
                                 <li class="subnav__item">HOSTING</li>
                                 <li class="subnav__item">GYM
-                                    <a href="#" class="hot" style="background-color: #161c2d;">DARK</a>
+                                    <a href="#" class="hot" style="--clr: #161c2d;">DARK</a>
                                 </li>
                                 <li class="subnav__item">NFT MAKERPLACE</li>
                                 <li class="subnav__item">HOTEL & RESORT
-                                    <a href="#" class="hot" style="background-color: #ea580c;">NEW</a>
+                                    <a href="#" class="hot" style="--clr: #ea580c;">NEW</a>
                                 </li>
                             </ul>
 
@@ -70,7 +71,7 @@
                                 <li class="subnav__item">PERSONAL</li>
                                 <li class="subnav__item">PORTFOLIO</li>
                                 <li class="subnav__item">PHOTOGRAPHY
-                                    <a href="#" class="hot" style="background-color: #161c2d;">DARK</a>
+                                    <a href="#" class="hot" style="--clr: #161c2d;">DARK</a>
                                 </li>
                                 <li class="subnav__item">STUDIO</li>
                                 <li class="subnav__item">CO-WORKING</li>
@@ -81,7 +82,7 @@
 
                             <ul class="col">
                                 <li class="subnav__item">CRYTOCURRENCY
-                                    <a href="#" class="hot" style="background-color: #161c2d;">DARK</a>
+                                    <a href="#" class="hot" style="--clr: #161c2d;">DARK</a>
                                 </li>
                                 <li class="subnav__item">LANDING ONE</li>
                                 <li class="subnav__item">LANDING TWO</li>
@@ -313,6 +314,9 @@
                     <a href="#"><i class="fa fa-gear"></i></a>
                     <a href="#"><i class="fa fa-cart-shopping"></i></a>
                 </div>
+                <div class="menu__respon">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
             </nav>
         </div>
     </div>
@@ -474,7 +478,8 @@
                         <img src="./assets/img/01.jpg" alt="">
                     </div>
                     <div class="slider__item--content">
-                        <p>" It seems that only fragments of the <br> original text remain in the Lorem Ipsum <br> texts used
+                        <p>" It seems that only fragments of the <br> original text remain in the Lorem Ipsum <br> texts
+                            used
                             today. "
                         </p>
                         <div class="info">
@@ -489,7 +494,8 @@
                         <img src="./assets/img/02.jpg" alt="">
                     </div>
                     <div class="slider__item--content">
-                        <p>" The most well-known dummy text is the <br> 'Lorem Ipsum', which is said to have <br> originated in the 16th century. "
+                        <p>" The most well-known dummy text is the <br> 'Lorem Ipsum', which is said to have <br>
+                            originated in the 16th century. "
                         </p>
                         <div class="info">
                             <p class="name">Carl Oliver</p>
@@ -568,7 +574,8 @@
                     <h2 class="banner__content_title">
                         Our Creativity Is Your
                     </h2>
-                    <p>Start working with Tailwind CSS that can provide everything <br> you need to generate awareness, drive traffic, connect.</p>
+                    <p>Start working with Tailwind CSS that can provide everything <br> you need to generate awareness,
+                        drive traffic, connect.</p>
                     <a href="#" class="btn">
                         <i class="fa-solid fa-link"></i>
                         Subscribe Now
@@ -633,6 +640,59 @@
                             Try it Now
                         </a>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="questions">
+        <div class="container">
+            <div class="questions_wrapper">
+                <div class="all-questions">
+                    <div class="question">
+                        <div class="question__item">
+                            <i class="fa-regular fa-circle-question"></i>
+                            <h4 class="question__title">How our <span>Techwind</span> work ?</h4>
+                            <p>Due to its widespread use as filler text for layouts, non-readability is of <br> great
+                                importance: human perception is tuned to recognize certain <br> patterns and repetitions
+                                in texts.</p>
+                        </div>
+
+                        <div class="question__item">
+                            <i class="fa-regular fa-circle-question"></i>
+                            <h4 class="question__title">What is the main process open account ?</h4>
+                            <p>If the distribution of letters and 'words' is random, the reader will not <br> be
+                                distracted from making a neutral judgement on the visual impact</p>
+                        </div>
+                    </div>
+
+                    <div class="question">
+                        <div class="question__item">
+                            <i class="fa-regular fa-circle-question"></i>
+                            <h4 class="question__title">How to make unlimited data entry ?</h4>
+                            <p>Furthermore, it is advantageous when the dummy text is relatively <br> realistic so that
+                                the layout impression of the final publication is not <br> compromised.</p>
+                        </div>
+
+                        <div class="question__item">
+                            <i class="fa-regular fa-circle-question"></i>
+                            <h4 class="question__title">Is <span>Techwind</span> safer to use with my account ?</h4>
+                            <p>The most well-known dummy text is the 'Lorem Ipsum', which is said <br> to have
+                                originated in the 16th century. Lorem Ipsum is composed in a <br> pseudo-Latin language
+                                which more or less corresponds to 'proper' <br> Latin.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work__content">
+                    <h3>How It Work ?</h3>
+                    <p>Start working with Tailwind CSS that can provide everything you need to <br> generate awareness,
+                        drive traffic, connect.
+                    </p>
+                    <a href="#" class="btn">
+                        <i class="fa-solid fa-phone"></i>
+                        Contact us
+                    </a>
                 </div>
             </div>
         </div>
