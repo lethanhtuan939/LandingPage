@@ -10,10 +10,19 @@
     <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <title>Techwind - Tailwind CSS</title>
-    <script src="./assets/js/main.js"></script>
 </head>
 
 <body>
+    
+    <div id="scrollToTop">
+        <i class="fa-solid fa-arrow-up"></i>
+    </div>
+
+    <div id="usecookie">
+        <p>This website uses cookies to provide you with a great user <br>experience. By using it, you accept our <a href="#">use of cookies</a></p>
+        <span class="times"><i class="fa-solid fa-times"></i></span>
+    </div>
+
     <div id="darkmode">
         <label class="switch" for="checkbox">
             <input type="checkbox" id="checkbox"/>
@@ -482,96 +491,92 @@
                     drive traffic, connect.
                 </p>
             </div>
-            <div class="slider_wrapper">
-                <button id="btn-prev" onclick="prev()"><i class="fa-solid fa-chevron-left"></i></button>
-                <button id="btn-next" onclick="next()"><i class="fa-solid fa-chevron-right"></i></button>
-                <div class="slider__item slider_activie" id="slide1">
-                    <div class="slider__item--img">
-                        <img src="./assets/img/01.jpg" alt="">
-                    </div>
-                    <div class="slider__item--content">
-                        <p>" It seems that only fragments of the <br> original text remain in the Lorem Ipsum <br> texts
-                            used
-                            today. "
-                        </p>
-                        <div class="info">
-                            <p class="name">Thomas Isreal</p>
-                            <p class="address">Staff Engineer, Algolia</p>
+            <div class="silder-row">
+                <button id="btn-next"><i class="fa-solid fa-chevron-right"></i></button>
+                <button id="btn-prev"><i class="fa-solid fa-chevron-left"></i></button>
+                <div class="slider_wrapper" id="slides">
+                    <div class="slider__item">
+                        <div class="slider__item--img">
+                            <img src="./assets/img/01.jpg" alt="">
+                        </div>
+                        <div class="slider__item--content">
+                            <p>" It seems that only fragments of the <br> original text remain in the Lorem Ipsum texts used today. "
+                            </p>
+                            <div class="info">
+                                <p class="name">Thomas Isreal</p>
+                                <p class="address">Staff Engineer, Algolia</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="slider__item slider_activie" id="slide2">
-                    <div class="slider__item--img">
-                        <img src="./assets/img/02.jpg" alt="">
-                    </div>
-                    <div class="slider__item--content">
-                        <p>" The most well-known dummy text is the <br> 'Lorem Ipsum', which is said to have <br>
-                            originated in the 16th century. "
-                        </p>
-                        <div class="info">
-                            <p class="name">Carl Oliver</p>
-                            <p class="address">Staff Engineer, Algolia</p>
+    
+                    <div class="slider__item">
+                        <div class="slider__item--img">
+                            <img src="./assets/img/02.jpg" alt="">
+                        </div>
+                        <div class="slider__item--content">
+                            <p>" The most well-known dummy text is the <br> 'Lorem Ipsum', which is said to have
+                                originated in the 16th century. "
+                            </p>
+                            <div class="info">
+                                <p class="name">Carl Oliver</p>
+                                <p class="address">Staff Engineer, Algolia</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="slider__item" id="slide3">
-                    <div class="slider__item--img">
-                        <img src="./assets/img/03.jpg" alt="">
-                    </div>
-                    <div class="slider__item--content">
-                        <p>" It seems that only fragments of the original text remain in the Lorem Ipsum texts used
-                            today. "
-                        </p>
-                        <div class="info">
-                            <p class="name">Thomas Isreal</p>
-                            <span class="address">Staff Engineer, Algolia</span>
+    
+                    <div class="slider__item">
+                        <div class="slider__item--img">
+                            <img src="./assets/img/03.jpg" alt="">
+                        </div>
+                        <div class="slider__item--content">
+                            <p>" One disadvantage of Lorum Ipsum is <br>that in Latin certain letters appear more frequently than others. "
+                            </p>
+                            <div class="info">
+                                <p class="name">Barbara McIntosh</p>
+                                <p class="address">Staff Engineer, Algolia</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="slider__item" id="slide4">
-                    <div class="slider__item--img">
-                        <img src="./assets/img/04.jpg" alt="">
-                    </div>
-                    <div class="slider__item--content">
-                        <p>" It seems that only fragments of the original text remain in the Lorem Ipsum texts used
-                            today. "
-                        </p>
-                        <div class="info">
-                            <p class="name">Thomas Isreal</p>
-                            <span class="address">Staff Engineer, Algolia</span>
+    
+                    <div class="slider__item">
+                        <div class="slider__item--img">
+                            <img src="./assets/img/04.jpg" alt="">
+                        </div>
+                        <div class="slider__item--content">
+                            <p>" Thus, Lorem Ipsum has only limited <br>suitability as a visual filler for German texts. "
+                            </p>
+                            <div class="info">
+                                <p class="name">Jill Webb</p>
+                                <p class="address">Staff Engineer, Algolia</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="slider__item" id="slide5">
-                    <div class="slider__item--img">
-                        <img src="./assets/img/05.jpg" alt="">
-                    </div>
-                    <div class="slider__item--content">
-                        <p>" It seems that only fragments of the original text remain in the Lorem Ipsum texts used
-                            today. "
-                        </p>
-                        <div class="info">
-                            <p class="name">Thomas Isreal</p>
-                            <span class="address">Staff Engineer, Algolia</span>
+    
+                    <div class="slider__item">
+                        <div class="slider__item--img">
+                            <img src="./assets/img/05.jpg" alt="">
+                        </div>
+                        <div class="slider__item--content">
+                            <p>" One disadvantage of Lorum Ipsum is <br>that in Latin certain letters appear more frequently than others. "
+                            </p>
+                            <div class="info">
+                                <p class="name">Barbara McIntosh</p>
+                                <p class="address">Staff Engineer, Algolia</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="slider__item" id="slide6">
-                    <div class="slider__item--img">
-                        <img src="./assets/img/06.jpg" alt="">
-                    </div>
-                    <div class="slider__item--content">
-                        <p>" It seems that only fragments of the original text remain in the Lorem Ipsum texts used
-                            today. "
-                        </p>
-                        <div class="info">
-                            <p class="name">Thomas Isreal</p>
-                            <span class="address">Staff Engineer, Algolia</span>
+    
+                    <div class="slider__item">
+                        <div class="slider__item--img">
+                            <img src="./assets/img/06.jpg" alt="">
+                        </div>
+                        <div class="slider__item--content">
+                            <p>" Thus, Lorem Ipsum has only limited <br>suitability as a visual filler for German texts. "
+                            </p>
+                            <div class="info">
+                                <p class="name">Jill Webb</p>
+                                <p class="address">Staff Engineer, Algolia</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -733,7 +738,7 @@
                 <div class="footer__col">
                     <div class="footer__company">
                         <span class="footer-title">Company</span>
-                        <ul class="mt-30 list_links">
+                        <ul class="list_links">
                             <li><i class="fa-solid fa-chevron-right"></i>About us</li>
                             <li><i class="fa-solid fa-chevron-right"></i>Services</li>
                             <li><i class="fa-solid fa-chevron-right"></i>Team</li>
@@ -745,7 +750,7 @@
                         </ul>
                     </div>
 
-                    <div class="mt-30 footer__links">
+                    <div class="footer__links">
                         <span class="footer-title">Usefull Links</span>
                         <ul class="list_links">
                             <li><i class="fa-solid fa-chevron-right"></i>Terms of Services</li>
@@ -756,19 +761,19 @@
                         </ul>
                     </div>
 
-                    <div class="mt-30 footer__letter">
+                    <div class="footer__letter">
                         <span class="footer-title">Usefull Links</span>
                         <p>Sign up and receive the latest tips<br> via email.</p>
-                        <div class="work__form-group">
+                        <form action="" class="work__form-group">
                             <label>Your Email:
                                 <span class="star">*</span>
                             </label>
                             <div class="form-icon">
                                 <i class="fa-regular fa-envelope"></i>
-                                <input type="text" class="form-control" required placeholder="Email">
+                                <input type="text" class="form-control" placeholder="Email" required>
                             </div>
-                        </div>
-                        <button type="submit" class="btn_submit">Subscribe</button>
+                            <button type="submit" class="btn_submit">Subscribe</button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -789,6 +794,9 @@
         </div>
         <!-- </div> -->
     </div>
+
+
+    <script src="./assets/js/main.js"></script>
 </body>
 
 </html>
