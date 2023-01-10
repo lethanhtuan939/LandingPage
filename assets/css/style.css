@@ -528,18 +528,14 @@ nav .subnav_portfolio {
     justify-content: space-around;
     margin-top: 40px;
 }
+.work_wrapper .work__col:last-child {
+    flex-direction: row-reverse;
+}
 
 .work__content p {
     color: #94a3b8;
     line-height: 26px;
     margin-bottom: 30px;
-}
-
-.work_wrapper .work__col {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 40px;
 }
 
 .work__col--img {

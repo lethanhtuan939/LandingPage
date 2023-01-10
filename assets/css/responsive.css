@@ -75,6 +75,9 @@
         width: 100%;
         height: auto;
     }
+    .work__form {
+        margin-bottom: 50px;
+    }
 
     .work__form img {
         width: 100%;
